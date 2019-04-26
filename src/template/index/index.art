@@ -1,0 +1,3 @@
+{{include './header.art'}}
+<p>{{msg1}}</p>
+<p>{{msg2}}</p>

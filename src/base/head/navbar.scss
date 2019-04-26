@@ -1,0 +1,111 @@
+@import "../../common/css/index.scss";
+
+
+
+.share_nav_box{
+    background-color: black;
+    color: white;
+}
+.share_nav_content{
+    width: px2rem(1168px);
+    margin: 0 auto;
+    height: px2rem(30px);
+    display: flex;
+    align-items: center;
+    font-size: px2rem(12px);
+    padding: 0 px2rem(16px);
+}
+.com_head_logo_top_right img{
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: px2rem(5px);
+}
+.share_nav_content>div{
+    margin-right: px2rem(61px);
+}
+.share_nav_child{
+   img{
+       margin-left: px2rem(10px);
+   }
+}
+.share_nav_phone{
+   img{
+       margin-left: px2rem(10px);
+   }
+}
+.share_nav_qq{
+img{
+       margin-left: px2rem(10px);
+   }
+}
+.com_head_logo{
+    width: px2rem(1168px);
+    padding: 0 px2rem(16px);
+    margin: 0 auto;
+}
+.com_head_logo_top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: px2rem(81px);
+}
+.com_head_logo_top_right{
+    font-size: px2rem(12px);
+    color:#717d88 ;
+}
+.logo_top_rightLink{
+    margin-right: px2rem(21px);
+    color: #717d88;
+}
+.com_head_logo_top_leftImg{
+    width: px2rem(142px);
+}
+.com_head_logo_bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: px2rem(44px);
+}
+.logo_bottom_list{
+    height: px2rem(44px);
+    display: flex;
+    align-items: center;
+    font-size: px2rem(18px);
+}
+.logo_bottom_list_items{
+    box-sizing: border-box;
+    margin-right: px2rem(40px);
+    height: px2rem(44px);
+    line-height: px2rem(44px);
+    cursor: pointer;
+    a{
+        color: black;
+            height: 100%;
+    display: inline-block;
+    }
+}
+.logo_bottom_list_items.active{
+    border-bottom: 2px solid #f6ab00;
+}
+.com_head_logo_bottom_search{
+    width: px2rem(249px);
+    height: px2rem(30px);
+    line-height: px2rem(30px);
+    position: relative;
+    border: 1px solid #c9d4de;
+    padding-left: px2rem(15px);
+    font-size: px2rem(15px);
+    input{
+        outline: none;
+    }
+}
+.search{
+    display: inline-block;
+    width: px2rem(30px);
+    height: px2rem(30px);
+    background: url(../../img/search.png)center center no-repeat;
+    background-size: 60%;
+    position: absolute;
+    right: px2rem(10px);
+    cursor: pointer;
+}

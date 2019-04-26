@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<%=require('html-withimg-loader!../../base/meta/meta.html')%>
+    <title>产品及方案</title>
+</head>
+<body>
+<!--引入通用的导航部分-->
+<%=require('html-withimg-loader!../../base/head/navbar.html')%>
+
+<!--页面的正式内容在这里-->
+<section id="app">
+	<!--轮播图-->
+   <div class="swipe-box">
+   		<ul class="swipe-content">
+   			<li class="swipe-item">
+
+   				<div class="swipe-items-text-box">
+   					<div class="swipe-items-text">
+   						<p>全球智能配用电系统</p>
+   						<p>
+   							解决方案提供商
+   							<img src=<%=require('../../img/slot_arrow.png')%> />
+   						</p>
+   					</div>
+   					<div class="btn-get-more">
+   						<img src=<%=require('../../img/getmore_arrow.png')%> />
+   						了解更多
+   					</div>
+   				</div>
+   			</li>
+   		</ul>
+   </div>
+   <!--主营业务等card-->
+   <div id="good_case_card_box">
+
+   		<!--主营业务-->
+   		<div id="good_case_card_mainwork" class="good_case_card_content">
+   			<div class="card_mainwork_head good_case_card_head">
+   				<h3 class="good_case_card_head_text">主营业务</h3>
+   				<a href="javascript:;">查看全部</a>
+   			</div>
+   			<ul class="good_case_card_list">
+   				<li class="good_case_card_items">
+   					<img src=<%=require('../../img/mainwork_bg.png')%>/>
+   					<h3>智能电能表</h3>
+   					<div class="good_case_card_items_text">
+   						<div class="card_items_text_left">
+   							此款仪表用于精确测量商量，工业和住宅等各类用户的电能消耗。此款仪表支持智能计量
+   						</div>
+   						<span class="icon_arrow"></span>
+   					</div>
+   				</li>
+   			</ul>
+   		</div>
+   </div>
+   
+   
+</section>
+
+<!--引入通用的底部栏-->
+<%=require('html-withimg-loader!../../base/footer/footer.html')%>
+</body>
+</html>

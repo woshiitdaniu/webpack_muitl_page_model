@@ -1,0 +1,139 @@
+@import "../../common/css/index.scss";
+
+/*公共组件部分*/
+
+@import "../../base/head/navbar.scss";
+@import "../../base/footer/footer.scss";
+
+/*轮播图样式 start*/
+
+.swipe-content {
+    width: 100%;
+    overflow: hidden;
+}
+
+.swipe-item {
+    height: px2rem(461px);
+    background: url(../../img/swipe_bg1.png)center center no-repeat;
+    background-size: 100% 150%;
+    padding-top: px2rem(124px);
+    padding-left: px2rem(376px);
+}
+
+.swipe-items-text-box {
+    width: px2rem(446px);
+    padding: px2rem(38px) px2rem(28px);
+    background-color: rgba(21, 84, 125, 0.63);
+}
+
+.swipe-items-text {
+    margin-bottom: px2rem(53px);
+    font-size: px2rem(35px);
+    font-weight: bolder;
+    letter-spacing: px2rem(3px);
+    color: white;
+    p {
+        line-height: px2rem(45px);
+        img {
+            display: inline-block;
+            vertical-align: middle;
+            height: px2rem(24px);
+        }
+    }
+}
+
+.btn-get-more {
+    width: px2rem(265px);
+    height: px2rem(50px);
+    color: white;
+    background-color: #f6ab00;
+    font-size: px2rem(15px);
+        display: flex;
+    align-items: center;
+    img {
+        vertical-align: middle;
+        margin-left: px2rem(15px);
+        margin-right: px2rem(9px);
+        height: px2rem(12px);
+    }
+}
+
+
+/*轮播图样式 end*/
+
+
+/*主营业务等选项卡start*/
+
+.good_case_card_head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: px2rem(136px);
+    a {
+        font-size: px2rem(15px);
+        color: black;
+        display: inline-block;
+        width: px2rem(77px);
+        background: url(../../img/checkAll.png)right center no-repeat;
+        background-size: 9%;
+    }
+}
+
+#good_case_card_box {
+    width: px2rem(1168px);
+    margin: 0 auto;
+    padding-top: px2rem(68px);
+}
+
+.good_case_card_head_text {
+    font-size: px2rem(23px);
+    font-weight: bold;
+}
+
+.good_case_card_list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.good_case_card_items {
+    background-color: #e9eef4;
+    width: px2rem(371px);
+    img {
+        width: 100%;
+        height: px2rem(215px);
+    }
+    h3 {
+        padding-left: px2rem(23px);
+        font-size: px2rem(21px);
+        font-weight: bold;
+        margin-top: px2rem(49px);
+        margin-bottom: px2rem(30px);
+    }
+    .good_case_card_items_text {
+        padding: 0 px2rem(23px) px2rem(51px) px2rem(23px);
+        display: flex;
+        justify-content: space-between;
+    }
+    .card_items_text_left {
+        width: px2rem(276px);
+        height: px2rem(74px);
+        line-height: px2rem(25px);
+        font-size: px2rem(18px);
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 3;
+        word-break: break-all;
+        text-overflow: ellipsis;
+        overflow: hidden;
+    }
+    .icon_arrow {
+        width: px2rem(30px);
+        height: px2rem(74px);
+        display: inline-block;
+        background: url(../../img/new_arrow.png)center bottom no-repeat;
+        background-size: 39%;
+    }
+}
+
+
+/*主营业务等选项卡end*/
